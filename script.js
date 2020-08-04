@@ -56,5 +56,12 @@ var teacherQuestion = interviewQuestion('teacher');
 
 teacherQuestion('Jane');
 
+var designerQuestion = interviewQuestion('designer');
+
+designerQuestion('Mark');
+designerQuestion('Hale');
+designerQuestion('Dany');
+
+interviewQuestion('doctor')('Daisy');
 
 
